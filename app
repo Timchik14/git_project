@@ -8,4 +8,6 @@ $app->add(new \App\MySecondCommand());
 
 $app->add(new \App\MyCommand());
 
+$app->add(new \App\MyThirdCommand());
+
 $app->run();
